@@ -1,4 +1,4 @@
-from pip._vendor import requests
+import requests
 import uuid
 
 ENDPOINT = "https://todo.pixegami.io"
@@ -102,3 +102,4 @@ def new_task_payload():
         "is_done": False,
     }
     
+# Execute wiht PyTest
